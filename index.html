@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+  <!-- A Better Font-->
+  <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
+  <!-- Required Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>Testing Bootstrap</title>
+</head>
+
+<body>
+  <h1 id="main_title" class="text_elements"> Welcome <span class="badge badge-secondary">Hi</span></h1>
+  <p id="example_p" class="text_elements">This is a learning experiment to become more familiar with <a href="https://https://getbootstrap.com/docs/4.1/components/">Bootstrap</a>. What follows is a tutorial of every element.</p>
+  <div id="button-container">
+    <button type="button" class="btn btn-primary" onclick="showNotifications()">
+      Notifications <span class="badge badge-info" id="notif_count">10</span>
+    </button>
+
+    <button type="button" class="btn btn-primary" onclick="increment_notif()">Add Notification</button>
+  </div>
+
+  <div id="notif_alert_container" class="alert alert-warning" role="alert">
+
+    <h2 id="notif_label">You have 10 unread notifications</h2>
+  </div>
+
+  <h2>Long Alerts</h2>
+  <div id="long-alert" class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Congrats</h4>
+    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+    <hr>
+    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+  </div>
+
+  <div id="dismissible-alert" class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You can dismiss this!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="btn-group" role="group" aria-label="Basic example">
+<button type="button" class="btn btn-secondary">Left</button>
+<button type="button" class="btn btn-secondary">Middle</button>
+<button type="button" class="btn btn-secondary">Right</button>
+</div>
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="bananafrenchtoast300dpi.jpg" alt="Card image cap">
+  <div id="card-no-width" class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <script src="JavaScript.js"></script>
+</body>
+
+</html>

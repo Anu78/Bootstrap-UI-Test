@@ -1,0 +1,8 @@
+*:not(#card-no-width){
+  margin: 10px;
+  font-family: "Niramit"
+}
+
+div:not(#card-no-width) {
+  width: 40%;
+}
